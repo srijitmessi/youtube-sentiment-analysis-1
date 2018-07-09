@@ -2,7 +2,7 @@
 
 This project outputs data relating to the sentiment of the comments of a YouTube video.
 
-There are 3 files used to achieve this currently:
+There are 2 files used to achieve this currently:
 
 - download_comments.py : used to download the comments (threads and individual replies) on a YouTube video
 - analyze_comments.py : analyzes the resultant data

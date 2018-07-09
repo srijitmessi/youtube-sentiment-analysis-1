@@ -53,7 +53,7 @@ def get_video_comments(video_id): # returns a list of comments given a video id
     print('Found {} threads with a total of {} comments'.format(len(threads), len(comments)))
     return comments, threads
 
-video_comments, video_threads = get_video_comments('fJP1duVKn7Q')
+video_comments, video_threads = get_video_comments('kJpZ1EEnlpk')
 
 joblib.dump(video_comments, 'video_comments.pkl') # pickle the comments
 joblib.dump(video_threads, 'video_threads.pkl') # pickle the threads
